@@ -185,9 +185,7 @@ public class MainActivity extends AppCompatActivity {
         int sum=0;
        // your code here
         for(int i=0;i<3;i++)
-        {
             sum+=score[i];
-        }
         return sum;
     }
 
