@@ -35,15 +35,11 @@ public class MainActivity extends AppCompatActivity {
             score[matchCounter++]=1;
             c++;
             correct.setText("👍"+c );
-//            sp1.edit().putString("title","👍"+c + "").apply();
-//            sp1.edit().putInt("cor",c).apply();
             Toast.makeText(this, "Correct", Toast.LENGTH_SHORT).show();
         }else{
             score[matchCounter++]=0;
             ic++;
             incorrect.setText("👎"+ic);
-//            sp2.edit().putString("title","👎"+ic + "").apply();
-//            sp2.edit().putInt("cor",ic).apply();
             Toast.makeText(this, "Wrong", Toast.LENGTH_SHORT).show();
         }
         newMatch();
