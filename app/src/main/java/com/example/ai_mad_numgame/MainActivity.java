@@ -209,14 +209,6 @@ public class MainActivity extends AppCompatActivity {
             return "Good job, keep it up";
         else if(slope<1)
             return "Need to work more";
-        else if(slope==1){
-            int n=0;
-            for(int i=0;i<=5;i++){
-                if(dataFrame[i][1]==3) n++;
-            }
-            if(n==6)
-                return "Awesome, Perfect score of 3 in last 6 games";
-        }
         return "Constant Performance";
     }
 }
