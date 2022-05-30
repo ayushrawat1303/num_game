@@ -1,8 +1,5 @@
 package com.example.ai_mad_numgame;
-/*
-   App will show your last performance at the start of the activity. New Tournament will start from
-   all performance set to -1 again. And your new performance will be visible, when you return back to game
- */
+
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -64,12 +61,6 @@ public class MainActivity extends AppCompatActivity {
         incorrect=findViewById(R.id.incor);
         newMatch();
         sharedPreferences=this.getSharedPreferences("com.example.ai_mad_numgame", Context.MODE_PRIVATE);
-//        sp1=this.getSharedPreferences("com.example.ai_mad_numgame",0);
-//        sp2=this.getSharedPreferences("com.example.ai_mad_numgame",0);
-//        int p1=sp1.getInt("cor",0);
-//        int p2=sp2.getInt("incor",0);
-//        correct.setText("👍"+p1+"");
-//        incorrect.setText("👎"+p2+"");
         int[][]dataFrame=dataPrep(); //dataPrep function returns a two-dimensional array
         double slope=LR.getSlope(dataFrame); //LR class, which provides slope on invoking getSlope
         new AlertDialog.Builder(this)
