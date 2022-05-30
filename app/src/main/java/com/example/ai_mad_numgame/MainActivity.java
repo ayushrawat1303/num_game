@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                     button1.setText(operand1 * operand2 + " ");
                     break;
                 default:
-                    button1.setText((float)operand1 / operand2 + " ");
+                    button1.setText(operand1 / operand2 + " ");
                     break;
             }
             button2.setText(rnd1+rnd2+" ");
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                     button2.setText(operand1 * operand2 + " ");
                     break;
                 default:
-                    button2.setText((float)operand1 / operand2 + " ");
+                    button2.setText(operand1 / operand2 + " ");
                     break;
             }
             button1.setText(rnd1+rnd2+" ");
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                     button3.setText(operand1 * operand2 + " ");
                     break;
                 default:
-                    button3.setText((float)operand1 / operand2 + " ");
+                    button3.setText(operand1 / operand2 + " ");
                     break;
             }
             button1.setText(rnd1+rnd2+" ");
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
                     button4.setText(operand1 * operand2 + " ");
                     break;
                 default:
-                    button4.setText((float)operand1 / operand2 + " ");
+                    button4.setText(operand1 / operand2 + " ");
                     break;
             }
             button2.setText(rnd1+rnd2+" ");
